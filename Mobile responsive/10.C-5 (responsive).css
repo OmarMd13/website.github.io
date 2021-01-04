@@ -1,0 +1,43 @@
+@media (max-width: 768px) {
+	#cdiv1, #cdiv2{
+		width: 100%;
+		height: 50%;
+	}
+	#cards1, #cards2{
+		overflow-x: auto;
+		overflow-y: unset;
+		flex-wrap: unset;
+		height: 80%;
+	}
+	#game_result img, #game_result div{
+		margin: auto;
+		transform: scale(.8);
+	}
+	#game_result img:hover{
+		transform: scale(.9, .9);
+	}
+	.button1, .button2, button{
+		transform: scale(.8);
+	}
+	.btn_div{
+		padding: 10px 65px;
+	}
+	button:hover{
+		transform: scale(1, 1);
+	}
+	button:active{
+    	transform: scale(.8, .8);
+	}
+	.contents{
+		padding: 10px 0px;
+		text-align: center;
+	}
+	#cards1 img, #cards2 img{
+		width: 80px;
+		height: 120px;
+	}
+	#option{
+		margin-bottom: 10px;
+		float: none;
+	}
+}

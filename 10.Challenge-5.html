@@ -1,0 +1,113 @@
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href = "External Css/10.Challenge-5.css"/>
+    <link rel = "stylesheet" href = "Mobile responsive/10.C-5 (responsive).css"/>
+</head>
+<body>
+<div class = "main">
+    <div class = "container">
+        <div class = "title">
+            <h1>Challege1: Convert your age into days</h1>
+        </div>
+        <div class = "btn_div">
+            <button class = "button1" onclick = "on_clicks()">Click here</button>
+            <button class = "button2" onclick = "reset()">Reset</button>
+        </div>
+        <div class = "resDiv">
+           <h2>Result: </h2><div class = "result"></div>
+        </div>
+        <div class = "title">
+            <h1>Challenge 2: Cat Generator</h1>
+        </div>
+        <div class = "btn_genDiv">
+            <button class = "gen_btn" onclick = "genClick()">Generate Cat</button>
+        </div>
+        <div class = "gif"></div>
+        <div class = "title">
+            <h1>Challenge 3: Rock, Paper, Scissors</h1>
+        </div>
+        <div id = "game_result">
+            <img id = "rock" onclick = "rpsResult(this)"
+            src = "Images/images.jfif"/>
+            <img id = "paper" onclick = "rpsResult(this)"
+            src = "Images/61OorFhm6SL._AC_SL1500_.jpg"/>
+            <img id = "scissors" onclick = "rpsResult(this)"
+            src = "Images/ed8a7f8d68675baa58758837f58eb829.jpg"/>
+        </div>
+        <div class = "title">
+            <h1>Challenge 4: Change the color of all buttons</h1>
+        </div>
+        <div class = "contents">
+            <form>
+                <select name = "backdrop" id = "option" onchange = "changeColor(this)">
+                    <option>Choose Colors</option>
+                    <option value = "random">Random</option>
+                    <option value = "red">Red</option>
+                    <option value = "green">Green</option>
+                    <option value = "reset">Reset</option>
+                </select>
+            </form>
+            <div id = "button_div">
+                <button class = "blue">Wee!</button>
+                <button class = "red">Yahoo!</button>
+                <button class = "yellow">Google!</button>
+                <button class = "green">Facebook!</button>
+            </div>
+        </div>
+        <div class = "title">
+            <h1>Challenge 5: Blackjack</h1>
+            <h2><span id = "popUPspan">Let's play</span></h2>
+        </div>
+        <div class = "card_button">
+            <div class = "cardDiv">
+                <div id = "cdiv1">
+                    <div class = "title">
+                        <h1>You: <span id = "your_score">0</span></h1>
+                    </div>
+                    <div id = "cards1"></div>
+                </div>
+                <div id = "cdiv2">
+                    <div class = title>
+                        <h1>Dealer: <span id = "dealer_score">0</span></h1>
+                    </div>
+                    <div id = 'cards2'></div>
+                </div>
+            </div>
+            <div class = "btn_container">
+                <div>
+                    <button class = "blue" id = "hitBtn">Hit</button>
+                    <button class = "yellow" id = "standBtn">Stand</button>
+                    <button class = "red" id = "dealBtn">Deal</button>
+                </div>
+            </div>
+        </div>
+        <div id = "scoreDiv">
+            <table id = "scoreTable">
+                <thead>
+                    <tr>
+                        <th>Win</th>
+                        <th>Lose</th>
+                        <th>Draw</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><span id = "winSpan">0</span></td>
+                        <td><span id = "loseSpan">0</span></td>
+                        <td><span id = "drawSpan">0</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<div style = "text-align: center;">
+    <h1>Created By MD Omar</h1>
+</div>
+    <script type = "text/javascript" src = "External javascript/10.Challenge-5.js"></script>
+</body>
+</html>

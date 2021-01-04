@@ -1,0 +1,35 @@
+@media (max-width: 768px) {
+	#cdiv1, #cdiv2{
+		width: 49.3%;
+	}
+	#game_result img, #game_result div{
+		margin: auto;
+		transform: scale(.8);
+	}
+	#game_result img:hover{
+		transform: scale(.9, .9);
+	}
+	.button1, .button2, button{
+		transform: scale(.8);
+	}
+	.btn_div{
+		padding: 10px 65px;
+	}
+	button:hover{
+		transform: scale(1, 1);
+	}
+	button:active{
+    	transform: scale(.8, .8);
+	}
+	#option{
+		transform: scale(.8, .8);
+		border: 1px solid black;
+	}
+	.contents{
+		padding: 10px 0px;
+	}
+	#cards1 img, #cards2 img{
+		width: 80px;
+		height: 120px;
+	}
+}

@@ -1,0 +1,15 @@
+var students = [
+	{
+		"name": "Omar",
+		"nickname": "Faisal",
+		"age": 18,
+		"profession": "student",
+	}
+	{
+		"name": "Faruq",
+		"nickname": "Shah",
+		"age": 20,
+		"profession": "freelancer",
+	}
+]
+console.log(JSON.parse(students[0]));
